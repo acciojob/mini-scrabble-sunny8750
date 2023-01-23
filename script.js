@@ -1,6 +1,6 @@
 
 function sunny(){
-    let a =document.getElementById("scrbl").value;
-    let b=document.getElementById("count");
+    let a =document.getElementById("evaluatedText").value;
+    let b=document.getElementById("letterCount");
     b.innerHTML=a.length;
 }
